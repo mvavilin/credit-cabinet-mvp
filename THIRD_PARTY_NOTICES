@@ -1,0 +1,13 @@
+Third-party components
+
+- React and React DOM — MIT License.
+- Vite and @vitejs/plugin-react — MIT License.
+- TypeScript — Apache-2.0 License.
+- Zustand — MIT License.
+- Tailwind CSS — MIT License.
+- PostCSS — MIT License.
+- Autoprefixer — MIT License.
+- lucide-react — ISC License.
+- Node.js container image `node:22-alpine` and Nginx container image `nginx:1.27-alpine` are used by Docker build/runtime.
+
+No external LLM, model weights, datasets, paid APIs, corporate services, real bank integrations, or real personal/financial data are used. Credit products, financial profiles, rates, checks, statuses, and outcomes are synthetic and generated locally.
