@@ -3,13 +3,12 @@ import { createRoot } from 'react-dom/client'
 import App from './App'
 import LoginPage from './LoginPage'
 import './index.css'
+import type { RegistrationCompany } from './store'
 
 type LoginData = {
   email: string
   mode: 'login' | 'register'
-  company?: string
-  inn?: string
-  monthsInBusiness?: number
+  company?: RegistrationCompany
 }
 
 function Root() {

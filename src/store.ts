@@ -2,7 +2,7 @@ import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
 
 export type Outcome = 'approved' | 'more_info' | 'alternative' | 'rejected' | null
-export type Stage = 'need' | 'profile' | 'products' | 'application' | 'review' | 'result'
+export type Stage = 'need' | 'profile' | 'products' | 'application' | 'applications' | 'review' | 'result'
 export type BusinessProfile = {
   company: string; inn: string; companyCreatedAt: string; purpose: string; amount: number; term: number;
   revenue: number; expenses: number; existingPayments: number; monthsInBusiness: number;
